@@ -1,0 +1,29 @@
+.not-found-container {
+ max-width: 600px;
+ margin: 0 auto;
+ padding: 2rem;
+ background-color: #f7f7f7;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ text-align: center;
+}
+
+.not-found-container h2 {
+ font-family: 'Bebas Neue', sans-serif;
+ color: #286f9e;
+ font-size: 28px;
+}
+
+.not-found-container p {
+ font-family: 'Roboto', sans-serif;
+ color: #333;
+ font-size: 18px;
+ line-height: 1.6;
+ margin-bottom: 1rem;
+}
+
+.not-found-image {
+ margin-top: 20px;
+ max-width: 450px;
+ height: auto;
+}

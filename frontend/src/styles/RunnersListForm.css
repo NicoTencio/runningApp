@@ -1,0 +1,55 @@
+.runners-list-form-container {
+ max-width: 600px;
+ margin: 0 auto;
+ padding: 2rem;
+ background-color: #f7f7f7;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ margin-bottom: 50px;
+}
+
+.runners-list-form {
+ display: flex;
+ flex-direction: column;
+}
+
+.runners-list-form-container h2 {
+ font-family: 'Bebas Neue', sans-serif;
+ color: #286f9e;
+ font-size: 28px;
+}
+
+.runners-list-form label {
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 18px;
+ margin-bottom: 0.5rem;
+ font-weight: bold;
+}
+
+.form-group {
+ margin-bottom: 1.5rem;
+}
+
+.form-group select {
+ padding: 0.75rem;
+ font-size: 1rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ width: 100%;
+ box-sizing: border-box;
+}
+
+button {
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 18px;
+ padding: 0.75rem;
+ color: white;
+ background-color: #286f9e;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #1e5073;
+}

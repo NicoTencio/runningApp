@@ -1,0 +1,47 @@
+.payment-form {
+ width: 95%;
+ padding: 1rem;
+ background-color: #fff;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form .form-group {
+ margin-bottom: 1.5rem;
+}
+
+.payment-form .StripeElement {
+ padding: 0.75rem;
+ font-size: 1rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+.payment-form .StripeElement--focus {
+ border-color: #286f9e;
+ box-shadow: 0 0 8px rgba(40, 111, 158, 0.1);
+}
+
+.payment-form .StripeElement--invalid {
+ border-color: #ff4d4d;
+}
+
+.payment-form .StripeElement--webkit-autofill {
+ background-color: #fefde5 !important;
+}
+
+.payment-form button {
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 18px;
+ padding: 0.75rem;
+ color: white;
+ background-color: #286f9e;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.payment-form button:hover {
+ background-color: #1e5073;
+}

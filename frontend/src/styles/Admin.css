@@ -1,0 +1,12 @@
+h1 {
+  margin-top: 0;
+  color: white;
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+}
+.component-container > * {
+ margin-bottom: 50px; 
+}
